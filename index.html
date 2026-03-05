@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallebe Gallo | Full Stack Web Developer</title>
+  <meta name="description" content="Portfolio professionale di Kallebe Gallo, Full Stack Web Developer: progetti moderni, performance elevate e design orientato all'esperienza utente.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+ 
+<header class="hero-header">
+
+<div class="hero-effects" aria-hidden="true">
+  <span class="hero-glow glow-1"></span>
+  <span class="hero-glow glow-2"></span>
+  <span class="hero-glow glow-3"></span>
+</div>
+
+<h1 class="hero-typing" aria-label="Kallebe Gallo">
+  <span id="nameBase"></span><span class="name-accent" id="nameAccent"></span><span class="typing-cursor" aria-hidden="true">|</span>
+</h1>
+
+<a href="#sobre" class="scroll-indicator" aria-label="Scorri verso il basso" data-i18n-aria-label="hero.scroll">
+  <span class="scroll-line"></span>
+  <span class="scroll-dot"></span>
+</a>
+</header>
+
+
+<nav class="main-nav" aria-label="Navigazione principale">
+  <a href="#sobre" data-i18n="nav.about">Chi sono</a>
+  <a href="#skills-container" data-i18n="nav.skills">Competenze</a>
+  <a href="#projetos" data-i18n="nav.projects">Progetti</a>
+  <a href="#avaliacoes" data-i18n="nav.reviews">Recensioni</a>
+  <div class="language-dropdown" id="languageDropdown">
+    <button class="language-trigger" id="languageTrigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Seleziona lingua">
+      <img class="language-flag" id="languageCurrentFlag" src="https://flagcdn.com/w20/it.png" alt="Bandiera Italia">
+      <span class="language-current-code" id="languageCurrentCode">IT</span>
+      <span class="language-arrow" id="languageArrow">▾</span>
+    </button>
+
+    <div class="language-menu" id="languageMenu" role="listbox" aria-label="Selezione lingua">
+      <button type="button" class="language-option" data-lang="it" role="option">
+        <img class="language-flag" src="https://flagcdn.com/w20/it.png" alt="Bandiera Italia">
+        <span data-i18n="lang.it">Italiano</span>
+      </button>
+      <button type="button" class="language-option" data-lang="de" role="option">
+        <img class="language-flag" src="https://flagcdn.com/w20/de.png" alt="Bandiera Germania">
+        <span data-i18n="lang.de">Deutsch</span>
+      </button>
+      <button type="button" class="language-option" data-lang="fr" role="option">
+        <img class="language-flag" src="https://flagcdn.com/w20/fr.png" alt="Bandiera Francia">
+        <span data-i18n="lang.fr">Français</span>
+      </button>
+      <button type="button" class="language-option" data-lang="en" role="option">
+        <img class="language-flag" src="https://flagcdn.com/w20/gb.png" alt="Bandiera Regno Unito">
+        <span data-i18n="lang.en">English</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<section id="sobre">
+<h2 data-i18n="about.title">Chi sono</h2>
+<div class="about">
+<p data-i18n="about.p1">
+Sono uno sviluppatore web fullstack con un forte focus su performance, architettura moderna e design orientato all’esperienza utente. Lavoro su progetti ad alto impatto, offrendo soluzioni robuste, sicure e visivamente sofisticate.
+</p>
+<p data-i18n="about.p2">
+La mia attività comprende dal planning strategico all’implementazione tecnica, utilizzando sempre tecnologie attuali e le migliori pratiche del mercato.
+</p>
+</div>
+</section>
+
+<section class="skills-intro">
+  <h2 data-i18n="skillsIntro.title">Il ruolo e le competenze di un Web Developer Full Stack</h2>
+  <p data-i18n="skillsIntro.p1">Il Web Developer Full Stack è una figura professionale completa, capace di gestire l’intero processo di sviluppo di un progetto web, dal design dell’interfaccia fino alla logica lato server e alla gestione dei database.</p>
+  <p data-i18n="skillsIntro.p2">Nel frontend si occupa della realizzazione di siti e applicazioni moderne, responsive e orientate all’esperienza utente, utilizzando tecnologie come HTML, CSS e JavaScript. Nel backend sviluppa la struttura che permette al sistema di funzionare in modo sicuro ed efficiente, creando API, gestendo database e implementando sistemi di autenticazione.</p>
+  <p data-i18n="skillsIntro.p3">Oltre alle competenze tecniche, un Full Stack Developer possiede capacità di problem solving, organizzazione e comunicazione con il cliente, garantendo soluzioni digitali complete, performanti e scalabili.</p>
+  <p data-i18n="skillsIntro.p4">È una figura strategica per aziende che desiderano sviluppare progetti web professionali con un unico referente tecnico competente e affidabile.</p>
+</section>
+
+
+<section id="skills-container">
+<h2 data-i18n="specialties.title">Specialità</h2>
+ 
+<div class="skills-container">
+  <div class="frontend">
+    <h3 data-i18n="specialties.frontend.title">Frontend</h3>
+    <p data-i18n="specialties.frontend.desc">HTML5, CSS3, JavaScript, TypeScript, React, Next.js, UX/UI moderno</p>
+  </div>
+
+  <div class="backend">
+    <h3 data-i18n="specialties.backend.title">Backend</h3>
+    <p data-i18n="specialties.backend.desc">Node.js, API REST, autenticazione, sicurezza, architettura scalabile</p>
+  </div>
+
+  <div class="performance">
+    <h3 data-i18n="specialties.performance.title">Performance</h3>
+    <p data-i18n="specialties.performance.desc">SEO tecnico, ottimizzazione, accessibilità e migliori pratiche</p>
+  </div>
+
+  <div class="ferramentas">
+    <h3 data-i18n="specialties.tools.title">Strumenti</h3>
+    <p data-i18n="specialties.tools.desc">Git, Docker, CI/CD, cloud e workflow moderni</p>
+  </div>
+</div>
+
+</section>
+
+
+<section id="projetos">
+  <h2 data-i18n="projects.title">Progetti</h2>
+  <div class="portfolio-showcase" aria-label="Portfolio progetti web">
+    <button class="portfolio-item p1" type="button" data-full="img/AlpenBau%20SA.png" data-title="AlpenBau SA">
+      <img src="img/AlpenBau%20SA.png" alt="Preview AlpenBau SA">
+    </button>
+    <button class="portfolio-item p2" type="button" data-full="img/App%20Contabile%20Pro.png" data-title="App Contabile Pro">
+      <img src="img/App%20Contabile%20Pro.png" alt="Preview App Contabile Pro">
+    </button>
+    <button class="portfolio-item p3" type="button" data-full="img/Bella%20Burguer.png" data-title="Bella Burguer">
+      <img src="img/Bella%20Burguer.png" alt="Preview Bella Burguer">
+    </button>
+    <button class="portfolio-item p4" type="button" data-full="img/Blog%20Maicol.png" data-title="Blog Maicol">
+      <img src="img/Blog%20Maicol.png" alt="Preview Blog Maicol">
+    </button>
+    <button class="portfolio-item p5" type="button" data-full="img/Corsi.png" data-title="Corsi">
+      <img src="img/Corsi.png" alt="Preview Corsi">
+    </button>
+    <button class="portfolio-item p6" type="button" data-full="img/Forno%20D%27oro.png" data-title="Forno D'oro">
+      <img src="img/Forno%20D%27oro.png" alt="Preview Forno D'oro">
+    </button>
+    <button class="portfolio-item p7" type="button" data-full="img/Garage%20Ticino.png" data-title="Garage Ticino">
+      <img src="img/Garage%20Ticino.png" alt="Preview Garage Ticino">
+    </button>
+    <button class="portfolio-item p8" type="button" data-full="img/North%20Pake%20Gold.png" data-title="North Pake Gold">
+      <img src="img/North%20Pake%20Gold.png" alt="Preview North Pake Gold">
+    </button>
+    <button class="portfolio-item p9" type="button" data-full="img/Verde%20Vivo.png" data-title="Verde Vivo">
+      <img src="img/Verde%20Vivo.png" alt="Preview Verde Vivo">
+    </button>
+    <button class="portfolio-item p10" type="button" data-full="img/Vittorino%20Barber.png" data-title="Vittorino Barber">
+      <img src="img/Vittorino%20Barber.png" alt="Preview Vittorino Barber">
+    </button>
+  </div>
+</section>
+
+<div class="portfolio-lightbox" id="portfolioLightbox" aria-hidden="true">
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Chiudi anteprima" data-i18n-aria-label="lightbox.close">×</button>
+  <figure class="lightbox-content">
+    <img id="lightboxImage" src="" alt="Anteprima progetto">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+
+<section class="reviews" id="avaliacoes">
+  <h2 data-i18n="reviews.title">Recensioni</h2>
+  <p data-i18n="reviews.subtitle">Feedback reali in stile Google da clienti e collaboratori.</p>
+
+  <div class="reviews-marquee" aria-label="Recensioni clienti" data-i18n-aria-label="reviews.aria">
+    <div class="reviews-track">
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marco Bianchi">
+          <div>
+            <h3>Marco Bianchi</h3>
+            <span>CEO • Studio MB</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Professionale, veloce e preciso. Il nuovo sito ha aumentato conversioni e credibilità del brand.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Giulia Rossi">
+          <div>
+            <h3>Giulia Rossi</h3>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Design premium e performance eccellente. Collaborazione impeccabile dall’inizio alla consegna.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Luca Moretti">
+          <div>
+            <h3>Luca Moretti</h3>
+            <span>Founder • LM Tech</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Ha trasformato la nostra idea in una piattaforma moderna, stabile e orientata ai risultati.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Francesca Conti">
+          <div>
+            <h3>Francesca Conti</h3>
+            <span>Project Lead</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Ottima comunicazione, attenzione ai dettagli e soluzioni tecniche di alto livello.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/71.jpg" alt="Davide Greco">
+          <div>
+            <h3>Davide Greco</h3>
+            <span>COO • DG Consulting</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Codice pulito, tempi rispettati e grande visione strategica. Esperienza davvero top.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Alessia Romano">
+          <div>
+            <h3>Alessia Romano</h3>
+            <span>Creative Director</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>UX elegante e intuitiva. Il risultato finale supera nettamente le aspettative iniziali.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="Stefano Villa">
+          <div>
+            <h3>Stefano Villa</h3>
+            <span>Product Manager</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Perfetto equilibrio tra tecnologia e design. Lavoro serio, rapido e orientato al business.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/39.jpg" alt="Martina Neri">
+          <div>
+            <h3>Martina Neri</h3>
+            <span>E-commerce Specialist</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Incremento misurabile delle vendite online dopo il redesign. Competenza straordinaria.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="Andrea Serra">
+          <div>
+            <h3>Andrea Serra</h3>
+            <span>Founder • AS Digital</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Supporto costante e qualità premium. Ogni dettaglio è stato curato in modo impeccabile.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="Valentina Gallo">
+          <div>
+            <h3>Valentina Gallo</h3>
+            <span>Brand Strategist</span>
+          </div>
+        </div>
+        <div class="review-stars" aria-label="5 stelle">★★★★★</div>
+        <p>Implementazione moderna, SEO curata e performance elevate. Consigliatissimo.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+          <div>
+            <h3>Marco Bianchi</h3>
+            <span>CEO • Studio MB</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Professionale, veloce e preciso. Il nuovo sito ha aumentato conversioni e credibilità del brand.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+          <div>
+            <h3>Giulia Rossi</h3>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Design premium e performance eccellente. Collaborazione impeccabile dall’inizio alla consegna.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="">
+          <div>
+            <h3>Luca Moretti</h3>
+            <span>Founder • LM Tech</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Ha trasformato la nostra idea in una piattaforma moderna, stabile e orientata ai risultati.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+          <div>
+            <h3>Francesca Conti</h3>
+            <span>Project Lead</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Ottima comunicazione, attenzione ai dettagli e soluzioni tecniche di alto livello.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/71.jpg" alt="">
+          <div>
+            <h3>Davide Greco</h3>
+            <span>COO • DG Consulting</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Codice pulito, tempi rispettati e grande visione strategica. Esperienza davvero top.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+          <div>
+            <h3>Alessia Romano</h3>
+            <span>Creative Director</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>UX elegante e intuitiva. Il risultato finale supera nettamente le aspettative iniziali.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="">
+          <div>
+            <h3>Stefano Villa</h3>
+            <span>Product Manager</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Perfetto equilibrio tra tecnologia e design. Lavoro serio, rapido e orientato al business.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/39.jpg" alt="">
+          <div>
+            <h3>Martina Neri</h3>
+            <span>E-commerce Specialist</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Incremento misurabile delle vendite online dopo il redesign. Competenza straordinaria.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="">
+          <div>
+            <h3>Andrea Serra</h3>
+            <span>Founder • AS Digital</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Supporto costante e qualità premium. Ogni dettaglio è stato curato in modo impeccabile.</p>
+        <small>Recensione Google</small>
+      </article>
+
+      <article class="review-card" aria-hidden="true">
+        <div class="review-head">
+          <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="">
+          <div>
+            <h3>Valentina Gallo</h3>
+            <span>Brand Strategist</span>
+          </div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p>Implementazione moderna, SEO curata e performance elevate. Consigliatissimo.</p>
+        <small>Recensione Google</small>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="#" class="footer-brand">Kallebe <span>Gallo</span></a>
+    <a href="mailto:kallebesiqueira@gmail.com" class="footer-email">kallebesiqueira@gmail.com</a>
+  </div>
+
+  <div class="footer-grid">
+    <div class="footer-col footer-about">
+      <p data-i18n="footer.about">Sviluppo web moderno, performante e orientato ai risultati per aziende e professionisti.</p>
+      <a href="#avaliacoes" class="footer-cta" data-i18n="footer.cta">Recensioni</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.nav.title">Navigazione</h4>
+      <a href="#sobre" data-i18n="footer.nav.about">Chi sono</a>
+      <a href="#skills-container" data-i18n="footer.nav.skills">Competenze</a>
+      <a href="#projetos" data-i18n="footer.nav.projects">Progetti</a>
+      <a href="#avaliacoes" data-i18n="footer.nav.reviews">Recensioni</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.contact.title">Contatti</h4>
+      <a href="mailto:kallebesiqueira@gmail.com" data-i18n="footer.contact.email">Email</a>
+      <a href="https://www.linkedin.com/in/kallebe-gallo-a55b01211" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/kallebesiqueira-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#" data-i18n="footer.contact.freelance">Disponibilità freelance</a>
+    </div>
+
+    <div class="footer-col footer-newsletter">
+      <h4 data-i18n="footer.news.title">Newsletter</h4>
+      <p data-i18n="footer.news.desc">Ricevi aggiornamenti su nuovi progetti e tecnologie.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" placeholder="Inserisci la tua email" aria-label="Email newsletter" data-i18n-placeholder="footer.news.placeholder" data-i18n-aria-label="footer.news.aria">
+        <button type="submit" aria-label="Invia email" data-i18n-aria-label="footer.news.send">→</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p><span data-i18n="footer.copy">© 2026 Kallebe Gallo •</span> <a href="https://www.etzahweb.com" target="_blank" rel="noopener noreferrer">EtzahWeb</a></p>
+
+    <div class="footer-socials" aria-label="Social media">
+      <a href="https://www.linkedin.com/in/kallebe-gallo-a55b01211" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.94 8.5H3.56V20h3.38V8.5Zm.22-3.56c0-1.06-.8-1.94-1.91-1.94S3.34 3.88 3.34 4.94c0 1.04.79 1.91 1.89 1.91h.02c1.12 0 1.91-.87 1.91-1.91ZM20.66 13.41c0-3.38-1.8-4.95-4.21-4.95-1.94 0-2.8 1.07-3.28 1.82V8.5H9.79c.05 1.18 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.68.13-.92.27-.68.89-1.38 1.93-1.38 1.36 0 1.9 1.04 1.9 2.57V20h3.38v-6.59Z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/kallebesiqueira-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.51 2.87 8.33 6.84 9.68.5.1.66-.22.66-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.54 1.06 1.54 1.06.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.03 1.03-2.75-.11-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 7.09a9.3 9.3 0 0 1 2.5.35c1.9-1.32 2.74-1.05 2.74-1.05.56 1.42.21 2.46.1 2.72.64.72 1.02 1.63 1.02 2.75 0 3.95-2.34 4.81-4.58 5.07.36.32.69.93.69 1.88 0 1.36-.01 2.46-.01 2.8 0 .27.17.6.67.49A10.26 10.26 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/etzahweb" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.8A3.95 3.95 0 0 0 3.8 7.75v8.5a3.95 3.95 0 0 0 3.95 3.95h8.5a3.95 3.95 0 0 0 3.95-3.95v-8.5a3.95 3.95 0 0 0-3.95-3.95h-8.5Zm8.95 1.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/41798399268" target="_blank" rel="noopener noreferrer" aria-label="Contatta su WhatsApp" data-i18n-aria-label="whatsapp.aria">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.52 3.48A11.83 11.83 0 0 0 12.09 0C5.53 0 .2 5.33.2 11.88c0 2.1.55 4.15 1.59 5.97L0 24l6.33-1.75a11.82 11.82 0 0 0 5.75 1.47h.01c6.55 0 11.88-5.33 11.88-11.88a11.8 11.8 0 0 0-3.45-8.36ZM12.1 21.7h-.01a9.8 9.8 0 0 1-4.99-1.36l-.36-.21-3.76 1.04 1-3.66-.23-.38a9.84 9.84 0 0 1-1.51-5.25C2.24 6.44 6.66 2.02 12.1 2.02c2.63 0 5.1 1.02 6.96 2.88a9.76 9.76 0 0 1 2.88 6.95c0 5.44-4.43 9.86-9.85 9.86Zm5.4-7.38c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.65.15-.19.29-.75.95-.92 1.14-.17.19-.34.22-.63.07-.29-.15-1.24-.46-2.35-1.47-.87-.77-1.46-1.73-1.63-2.02-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.65-1.57-.89-2.15-.23-.56-.47-.48-.65-.49h-.56c-.19 0-.51.07-.77.36-.27.29-1.02.99-1.02 2.42s1.04 2.81 1.19 3.01c.15.19 2.04 3.11 4.95 4.36.69.3 1.24.48 1.66.61.7.22 1.33.19 1.83.11.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.27-.19-.56-.34Z"/>
+  </svg>
+</a>
+
+<script>
+const translations = {
+  it: {
+    pageTitle: 'Kallebe sviluppo',
+    'nav.about': 'Chi sono',
+    'nav.skills': 'Competenze',
+    'nav.projects': 'Progetti',
+    'nav.reviews': 'Recensioni',
+    'lang.it': 'Italiano',
+    'lang.de': 'Deutsch',
+    'lang.fr': 'Français',
+    'lang.en': 'English',
+    'about.title': 'Chi sono',
+    'about.p1': 'Sono uno sviluppatore web fullstack con un forte focus su performance, architettura moderna e design orientato all’esperienza utente. Lavoro su progetti ad alto impatto, offrendo soluzioni robuste, sicure e visivamente sofisticate.',
+    'about.p2': 'La mia attività comprende dal planning strategico all’implementazione tecnica, utilizzando sempre tecnologie attuali e le migliori pratiche del mercato.',
+    'skillsIntro.title': 'Il ruolo e le competenze di un Web Developer Full Stack',
+    'skillsIntro.p1': 'Il Web Developer Full Stack è una figura professionale completa, capace di gestire l’intero processo di sviluppo di un progetto web, dal design dell’interfaccia fino alla logica lato server e alla gestione dei database.',
+    'skillsIntro.p2': 'Nel frontend si occupa della realizzazione di siti e applicazioni moderne, responsive e orientate all’esperienza utente, utilizzando tecnologie come HTML, CSS e JavaScript. Nel backend sviluppa la struttura che permette al sistema di funzionare in modo sicuro ed efficiente, creando API, gestendo database e implementando sistemi di autenticazione.',
+    'skillsIntro.p3': 'Oltre alle competenze tecniche, un Full Stack Developer possiede capacità di problem solving, organizzazione e comunicazione con il cliente, garantendo soluzioni digitali complete, performanti e scalabili.',
+    'skillsIntro.p4': 'È una figura strategica per aziende che desiderano sviluppare progetti web professionali con un unico referente tecnico competente e affidabile.',
+    'skills.title': 'Le mie competenze',
+    'skills.subtitle': 'Principali aree di attività e conoscenze tecniche.',
+    'specialties.title': 'Specialità',
+    'specialties.frontend.title': 'Frontend',
+    'specialties.frontend.desc': 'HTML5, CSS3, JavaScript, TypeScript, React, Next.js, UX/UI moderno',
+    'specialties.backend.title': 'Backend',
+    'specialties.backend.desc': 'Node.js, API REST, autenticazione, sicurezza, architettura scalabile',
+    'specialties.performance.title': 'Performance',
+    'specialties.performance.desc': 'SEO tecnico, ottimizzazione, accessibilità e migliori pratiche',
+    'specialties.tools.title': 'Strumenti',
+    'specialties.tools.desc': 'Git, Docker, CI/CD, cloud e workflow moderni',
+    'projects.title': 'Progetti',
+    'projects.p1.title': 'Piattaforme Aziendali',
+    'projects.p1.desc': 'Sistemi web scalabili focalizzati sulla performance strategica.',
+    'projects.p2.title': 'Landing Page Premium',
+    'projects.p2.desc': 'Design moderno e conversione ottimizzata per business digitali.',
+    'projects.p3.title': 'Applicazioni Web',
+    'projects.p3.desc': 'Dashboard, pannelli amministrativi e soluzioni personalizzate.',
+    'reviews.title': 'Recensioni',
+    'reviews.subtitle': 'Feedback reali in stile Google da clienti e collaboratori.',
+    'reviews.aria': 'Recensioni clienti',
+    'reviews.stars': '5 stelle',
+    'reviews.source': 'Recensione Google',
+    'reviews.role1': 'CEO • Studio MB',
+    'reviews.role2': 'Marketing Manager',
+    'reviews.role3': 'Founder • LM Tech',
+    'reviews.role4': 'Project Lead',
+    'reviews.role5': 'COO • DG Consulting',
+    'reviews.role6': 'Creative Director',
+    'reviews.role7': 'Product Manager',
+    'reviews.role8': 'E-commerce Specialist',
+    'reviews.role9': 'Founder • AS Digital',
+    'reviews.role10': 'Brand Strategist',
+    'reviews.text1': 'Professionale, veloce e preciso. Il nuovo sito ha aumentato conversioni e credibilità del brand.',
+    'reviews.text2': 'Design premium e performance eccellente. Collaborazione impeccabile dall’inizio alla consegna.',
+    'reviews.text3': 'Ha trasformato la nostra idea in una piattaforma moderna, stabile e orientata ai risultati.',
+    'reviews.text4': 'Ottima comunicazione, attenzione ai dettagli e soluzioni tecniche di alto livello.',
+    'reviews.text5': 'Codice pulito, tempi rispettati e grande visione strategica. Esperienza davvero top.',
+    'reviews.text6': 'UX elegante e intuitiva. Il risultato finale supera nettamente le aspettative iniziali.',
+    'reviews.text7': 'Perfetto equilibrio tra tecnologia e design. Lavoro serio, rapido e orientato al business.',
+    'reviews.text8': 'Incremento misurabile delle vendite online dopo il redesign. Competenza straordinaria.',
+    'reviews.text9': 'Supporto costante e qualità premium. Ogni dettaglio è stato curato in modo impeccabile.',
+    'reviews.text10': 'Implementazione moderna, SEO curata e performance elevate. Consigliatissimo.',
+    'footer.about': 'Sviluppo web moderno, performante e orientato ai risultati per aziende e professionisti.',
+    'footer.cta': 'Recensioni',
+    'footer.nav.title': 'Navigazione',
+    'footer.nav.about': 'Chi sono',
+    'footer.nav.skills': 'Competenze',
+    'footer.nav.projects': 'Progetti',
+    'footer.nav.reviews': 'Recensioni',
+    'footer.contact.title': 'Contatti',
+    'footer.contact.email': 'Email',
+    'footer.contact.freelance': 'Disponibilità freelance',
+    'footer.news.title': 'Newsletter',
+    'footer.news.desc': 'Ricevi aggiornamenti su nuovi progetti e tecnologie.',
+    'footer.news.placeholder': 'Inserisci la tua email',
+    'footer.news.aria': 'Email newsletter',
+    'footer.news.send': 'Invia email',
+    'footer.copy': '© 2026 Kallebe Gallo •',
+    'hero.scroll': 'Scorri verso il basso',
+    'lightbox.close': 'Chiudi anteprima',
+    'whatsapp.aria': 'Contatta su WhatsApp',
+    'contact.title': 'Contattami:',
+    'contact.subtitle': 'Parliamo di progetti, idee o opportunità?',
+    'contact.email': 'Email',
+    'footer.text': '© 2026 Kallebe Gallo • Junior Web Developer'
+  },
+  de: {
+    pageTitle: 'Kallebe Entwicklung',
+    'nav.about': 'Über mich',
+    'nav.skills': 'Fähigkeiten',
+    'nav.projects': 'Projekte',
+    'nav.reviews': 'Bewertungen',
+    'lang.it': 'Italienisch',
+    'lang.de': 'Deutsch',
+    'lang.fr': 'Französisch',
+    'lang.en': 'Englisch',
+    'about.title': 'Über mich',
+    'about.p1': 'Ich bin ein Junior-Webentwickler mit starkem Fokus auf Performance, moderne Architektur und nutzerzentriertes Design. Ich arbeite an Projekten mit hoher Wirkung und liefere robuste, sichere und visuell anspruchsvolle Lösungen.',
+    'about.p2': 'Meine Arbeit reicht von strategischer Planung bis zur technischen Umsetzung, stets mit aktuellen Technologien und Best Practices.',
+    'skillsIntro.title': 'Die Rolle und Kompetenzen eines Full-Stack-Webentwicklers',
+    'skillsIntro.p1': 'Ein Full-Stack-Webentwickler ist ein vielseitiger Profi, der den gesamten Entwicklungsprozess eines Webprojekts steuert – vom Interface-Design bis zur serverseitigen Logik und Datenbankverwaltung.',
+    'skillsIntro.p2': 'Im Frontend entwickelt er moderne, responsive Websites und Anwendungen mit Fokus auf Benutzererlebnis, unter Einsatz von Technologien wie HTML, CSS und JavaScript. Im Backend erstellt er die Struktur für einen sicheren und effizienten Betrieb, entwickelt APIs, verwaltet Datenbanken und implementiert Authentifizierungssysteme.',
+    'skillsIntro.p3': 'Neben technischen Fähigkeiten verfügt ein Full-Stack-Developer über Problemlösungskompetenz, Organisation und klare Kundenkommunikation, um komplette, leistungsstarke und skalierbare digitale Lösungen zu liefern.',
+    'skillsIntro.p4': 'Er ist eine strategische Rolle für Unternehmen, die professionelle Webprojekte mit einem einzigen kompetenten und verlässlichen technischen Ansprechpartner entwickeln möchten.',
+    'skills.title': 'Meine Fähigkeiten',
+    'skills.subtitle': 'Wichtigste Tätigkeitsbereiche und technisches Know-how.',
+    'specialties.title': 'Spezialisierungen',
+    'specialties.frontend.title': 'Frontend',
+    'specialties.frontend.desc': 'HTML5, CSS3, JavaScript, TypeScript, React, Next.js, modernes UX/UI',
+    'specialties.backend.title': 'Backend',
+    'specialties.backend.desc': 'Node.js, REST APIs, Authentifizierung, Sicherheit, skalierbare Architektur',
+    'specialties.performance.title': 'Performance',
+    'specialties.performance.desc': 'Technisches SEO, Optimierung, Barrierefreiheit und Best Practices',
+    'specialties.tools.title': 'Werkzeuge',
+    'specialties.tools.desc': 'Git, Docker, CI/CD, Cloud und moderne Workflows',
+    'projects.title': 'Projekte',
+    'projects.p1.title': 'Unternehmensplattformen',
+    'projects.p1.desc': 'Skalierbare Websysteme mit Fokus auf strategische Performance.',
+    'projects.p2.title': 'Premium-Landingpages',
+    'projects.p2.desc': 'Modernes Design und optimierte Conversion für digitale Unternehmen.',
+    'projects.p3.title': 'Webanwendungen',
+    'projects.p3.desc': 'Dashboards, Admin-Panels und maßgeschneiderte Lösungen.',
+    'reviews.title': 'Bewertungen',
+    'reviews.subtitle': 'Echte Google-ähnliche Rückmeldungen von Kunden und Partnern.',
+    'reviews.aria': 'Kundenbewertungen',
+    'reviews.stars': '5 Sterne',
+    'reviews.source': 'Google-Bewertung',
+    'reviews.role1': 'CEO • Studio MB',
+    'reviews.role2': 'Marketingmanagerin',
+    'reviews.role3': 'Founder • LM Tech',
+    'reviews.role4': 'Projektleiterin',
+    'reviews.role5': 'COO • DG Consulting',
+    'reviews.role6': 'Creative Director',
+    'reviews.role7': 'Produktmanager',
+    'reviews.role8': 'E-Commerce-Spezialistin',
+    'reviews.role9': 'Founder • AS Digital',
+    'reviews.role10': 'Brand Strategin',
+    'reviews.text1': 'Professionell, schnell und präzise. Die neue Website hat unsere Conversion und Markenwirkung gesteigert.',
+    'reviews.text2': 'Premium-Design und hervorragende Performance. Die Zusammenarbeit war vom Start bis zur Lieferung makellos.',
+    'reviews.text3': 'Er hat unsere Idee in eine moderne, stabile und ergebnisorientierte Plattform verwandelt.',
+    'reviews.text4': 'Starke Kommunikation, hohe Detailgenauigkeit und technische Lösungen auf Top-Niveau.',
+    'reviews.text5': 'Sauberer Code, termingerechte Lieferung und strategischer Weitblick. Wirklich eine Top-Erfahrung.',
+    'reviews.text6': 'Elegantes und intuitives UX. Das Endergebnis hat unsere Erwartungen deutlich übertroffen.',
+    'reviews.text7': 'Perfekte Balance zwischen Technologie und Design. Seriöse, schnelle und businessorientierte Arbeit.',
+    'reviews.text8': 'Messbarer Anstieg der Online-Verkäufe nach dem Redesign. Außergewöhnliche Kompetenz.',
+    'reviews.text9': 'Konstanter Support und Premium-Qualität. Jedes Detail wurde hervorragend umgesetzt.',
+    'reviews.text10': 'Moderne Umsetzung, sauberes SEO und hohe Performance. Klare Empfehlung.',
+    'footer.about': 'Moderne und performante Webentwicklung für Unternehmen und Fachleute mit Fokus auf Ergebnisse.',
+    'footer.cta': 'Bewertungen',
+    'footer.nav.title': 'Navigation',
+    'footer.nav.about': 'Über mich',
+    'footer.nav.skills': 'Fähigkeiten',
+    'footer.nav.projects': 'Projekte',
+    'footer.nav.reviews': 'Bewertungen',
+    'footer.contact.title': 'Kontakte',
+    'footer.contact.email': 'E-Mail',
+    'footer.contact.freelance': 'Freelance-Verfügbarkeit',
+    'footer.news.title': 'Newsletter',
+    'footer.news.desc': 'Erhalte Updates zu neuen Projekten und Technologien.',
+    'footer.news.placeholder': 'E-Mail eingeben',
+    'footer.news.aria': 'Newsletter-E-Mail',
+    'footer.news.send': 'E-Mail senden',
+    'footer.copy': '© 2026 Kallebe Gallo •',
+    'hero.scroll': 'Nach unten scrollen',
+    'lightbox.close': 'Vorschau schließen',
+    'whatsapp.aria': 'Über WhatsApp kontaktieren',
+    'contact.title': 'Kontaktiere mich:',
+    'contact.subtitle': 'Sprechen wir über Projekte, Ideen oder Möglichkeiten?',
+    'contact.email': 'E-Mail',
+    'footer.text': '© 2026 Kallebe Gallo • Junior Webentwickler'
+  },
+  fr: {
+    pageTitle: 'Kallebe développement',
+    'nav.about': 'À propos',
+    'nav.skills': 'Compétences',
+    'nav.projects': 'Projets',
+    'nav.reviews': 'Avis',
+    'lang.it': 'Italien',
+    'lang.de': 'Allemand',
+    'lang.fr': 'Français',
+    'lang.en': 'Anglais',
+    'about.title': 'À propos',
+    'about.p1': 'Je suis un développeur web junior avec un fort focus sur la performance, l’architecture moderne et le design centré utilisateur. Je travaille sur des projets à fort impact en livrant des solutions robustes, sûres et visuellement raffinées.',
+    'about.p2': 'Mon travail va de la planification stratégique à l’implémentation technique, toujours avec des technologies actuelles et les meilleures pratiques.',
+    'skillsIntro.title': 'Le rôle et les compétences d’un développeur web Full Stack',
+    'skillsIntro.p1': 'Le développeur web Full Stack est un professionnel complet, capable de gérer tout le processus de développement d’un projet web, du design de l’interface jusqu’à la logique serveur et à la gestion des bases de données.',
+    'skillsIntro.p2': 'En frontend, il réalise des sites et applications modernes, responsives et orientés expérience utilisateur, avec des technologies comme HTML, CSS et JavaScript. En backend, il construit la structure qui permet au système de fonctionner de manière sûre et efficace, en créant des API, en gérant les bases de données et en implémentant l’authentification.',
+    'skillsIntro.p3': 'Au-delà des compétences techniques, un développeur Full Stack possède des capacités de résolution de problèmes, d’organisation et de communication client, garantissant des solutions digitales complètes, performantes et évolutives.',
+    'skillsIntro.p4': 'C’est un profil stratégique pour les entreprises qui souhaitent développer des projets web professionnels avec un interlocuteur technique unique, compétent et fiable.',
+    'skills.title': 'Mes compétences',
+    'skills.subtitle': 'Principaux domaines d’activité et connaissances techniques.',
+    'specialties.title': 'Spécialités',
+    'specialties.frontend.title': 'Frontend',
+    'specialties.frontend.desc': 'HTML5, CSS3, JavaScript, TypeScript, React, Next.js, UX/UI moderne',
+    'specialties.backend.title': 'Backend',
+    'specialties.backend.desc': 'Node.js, API REST, authentification, sécurité, architecture évolutive',
+    'specialties.performance.title': 'Performance',
+    'specialties.performance.desc': 'SEO technique, optimisation, accessibilité et meilleures pratiques',
+    'specialties.tools.title': 'Outils',
+    'specialties.tools.desc': 'Git, Docker, CI/CD, cloud et workflows modernes',
+    'projects.title': 'Projets',
+    'projects.p1.title': 'Plateformes d’entreprise',
+    'projects.p1.desc': 'Systèmes web évolutifs axés sur la performance stratégique.',
+    'projects.p2.title': 'Landing pages premium',
+    'projects.p2.desc': 'Design moderne et conversion optimisée pour les entreprises digitales.',
+    'projects.p3.title': 'Applications web',
+    'projects.p3.desc': 'Tableaux de bord, panneaux administratifs et solutions personnalisées.',
+    'reviews.title': 'Avis',
+    'reviews.subtitle': 'Retours réels de style Google de clients et collaborateurs.',
+    'reviews.aria': 'Avis clients',
+    'reviews.stars': '5 étoiles',
+    'reviews.source': 'Avis Google',
+    'reviews.role1': 'CEO • Studio MB',
+    'reviews.role2': 'Responsable Marketing',
+    'reviews.role3': 'Founder • LM Tech',
+    'reviews.role4': 'Cheffe de Projet',
+    'reviews.role5': 'COO • DG Consulting',
+    'reviews.role6': 'Directrice Créative',
+    'reviews.role7': 'Product Manager',
+    'reviews.role8': 'Spécialiste E-commerce',
+    'reviews.role9': 'Founder • AS Digital',
+    'reviews.role10': 'Stratège de Marque',
+    'reviews.text1': 'Professionnel, rapide et précis. Le nouveau site a renforcé nos conversions et la crédibilité de la marque.',
+    'reviews.text2': 'Design premium et performance excellente. Une collaboration impeccable du début à la livraison.',
+    'reviews.text3': 'Il a transformé notre idée en une plateforme moderne, stable et orientée résultats.',
+    'reviews.text4': 'Excellente communication, grande attention aux détails et solutions techniques de haut niveau.',
+    'reviews.text5': 'Code propre, délais respectés et vision stratégique. Une expérience vraiment haut de gamme.',
+    'reviews.text6': 'UX élégante et intuitive. Le résultat final dépasse nettement nos attentes initiales.',
+    'reviews.text7': 'Équilibre parfait entre technologie et design. Travail sérieux, rapide et orienté business.',
+    'reviews.text8': 'Hausse mesurable des ventes en ligne après la refonte. Compétence remarquable.',
+    'reviews.text9': 'Support constant et qualité premium. Chaque détail a été soigné avec précision.',
+    'reviews.text10': 'Implémentation moderne, SEO soigné et hautes performances. Fortement recommandé.',
+    'footer.about': 'Développement web moderne et performant pour entreprises et professionnels, orienté résultats.',
+    'footer.cta': 'Avis',
+    'footer.nav.title': 'Navigation',
+    'footer.nav.about': 'À propos',
+    'footer.nav.skills': 'Compétences',
+    'footer.nav.projects': 'Projets',
+    'footer.nav.reviews': 'Avis',
+    'footer.contact.title': 'Contacts',
+    'footer.contact.email': 'E-mail',
+    'footer.contact.freelance': 'Disponibilité freelance',
+    'footer.news.title': 'Newsletter',
+    'footer.news.desc': 'Recevez des mises à jour sur les nouveaux projets et technologies.',
+    'footer.news.placeholder': 'Entrez votre e-mail',
+    'footer.news.aria': 'E-mail newsletter',
+    'footer.news.send': 'Envoyer e-mail',
+    'footer.copy': '© 2026 Kallebe Gallo •',
+    'hero.scroll': 'Faire défiler vers le bas',
+    'lightbox.close': 'Fermer l’aperçu',
+    'whatsapp.aria': 'Contacter via WhatsApp',
+    'contact.title': 'Contactez-moi :',
+    'contact.subtitle': 'Parlons de projets, d’idées ou d’opportunités ?',
+    'contact.email': 'E-mail',
+    'footer.text': '© 2026 Kallebe Gallo • Développeur Web Junior'
+  },
+  en: {
+    pageTitle: 'Kallebe development',
+    'nav.about': 'About',
+    'nav.skills': 'Skills',
+    'nav.projects': 'Projects',
+    'nav.reviews': 'Reviews',
+    'lang.it': 'Italian',
+    'lang.de': 'German',
+    'lang.fr': 'French',
+    'lang.en': 'English',
+    'about.title': 'About',
+    'about.p1': 'I am a junior web developer with a strong focus on performance, modern architecture, and user-centered design. I work on high-impact projects, delivering robust, secure, and visually sophisticated solutions.',
+    'about.p2': 'My work spans from strategic planning to technical implementation, always using up-to-date technologies and best practices.',
+    'skillsIntro.title': 'The role and skills of a Full Stack Web Developer',
+    'skillsIntro.p1': 'A Full Stack Web Developer is a complete professional who can manage the entire development process of a web project, from interface design to server-side logic and database management.',
+    'skillsIntro.p2': 'On the frontend, they build modern, responsive websites and applications focused on user experience using technologies like HTML, CSS, and JavaScript. On the backend, they build the structure that keeps the system secure and efficient by creating APIs, managing databases, and implementing authentication.',
+    'skillsIntro.p3': 'Beyond technical expertise, a Full Stack Developer brings problem-solving, organization, and client communication skills, ensuring complete, high-performance, and scalable digital solutions.',
+    'skillsIntro.p4': 'It is a strategic role for companies that want to build professional web projects with one competent and reliable technical point of contact.',
+    'skills.title': 'My Skills',
+    'skills.subtitle': 'Main areas of expertise and technical knowledge.',
+    'specialties.title': 'Specialties',
+    'specialties.frontend.title': 'Frontend',
+    'specialties.frontend.desc': 'HTML5, CSS3, JavaScript, TypeScript, React, Next.js, modern UX/UI',
+    'specialties.backend.title': 'Backend',
+    'specialties.backend.desc': 'Node.js, REST APIs, authentication, security, scalable architecture',
+    'specialties.performance.title': 'Performance',
+    'specialties.performance.desc': 'Technical SEO, optimization, accessibility and best practices',
+    'specialties.tools.title': 'Tools',
+    'specialties.tools.desc': 'Git, Docker, CI/CD, cloud and modern workflows',
+    'projects.title': 'Projects',
+    'projects.p1.title': 'Business Platforms',
+    'projects.p1.desc': 'Scalable web systems focused on strategic performance.',
+    'projects.p2.title': 'Premium Landing Pages',
+    'projects.p2.desc': 'Modern design and optimized conversion for digital businesses.',
+    'projects.p3.title': 'Web Applications',
+    'projects.p3.desc': 'Dashboards, admin panels and custom solutions.',
+    'reviews.title': 'Reviews',
+    'reviews.subtitle': 'Real Google-style feedback from clients and collaborators.',
+    'reviews.aria': 'Client reviews',
+    'reviews.stars': '5 stars',
+    'reviews.source': 'Google Review',
+    'reviews.role1': 'CEO • Studio MB',
+    'reviews.role2': 'Marketing Manager',
+    'reviews.role3': 'Founder • LM Tech',
+    'reviews.role4': 'Project Lead',
+    'reviews.role5': 'COO • DG Consulting',
+    'reviews.role6': 'Creative Director',
+    'reviews.role7': 'Product Manager',
+    'reviews.role8': 'E-commerce Specialist',
+    'reviews.role9': 'Founder • AS Digital',
+    'reviews.role10': 'Brand Strategist',
+    'reviews.text1': 'Professional, fast, and precise. The new website boosted both conversions and brand credibility.',
+    'reviews.text2': 'Premium design and excellent performance. Flawless collaboration from kickoff to delivery.',
+    'reviews.text3': 'He transformed our idea into a modern, stable, results-driven platform.',
+    'reviews.text4': 'Great communication, attention to detail, and high-level technical solutions.',
+    'reviews.text5': 'Clean code, on-time delivery, and strong strategic vision. Truly a top-tier experience.',
+    'reviews.text6': 'Elegant and intuitive UX. The final result clearly exceeded our initial expectations.',
+    'reviews.text7': 'Perfect balance between technology and design. Serious, fast, and business-focused work.',
+    'reviews.text8': 'Measurable increase in online sales after the redesign. Outstanding expertise.',
+    'reviews.text9': 'Consistent support and premium quality. Every detail was handled impeccably.',
+    'reviews.text10': 'Modern implementation, strong SEO, and high performance. Highly recommended.',
+    'footer.about': 'Modern, high-performance web development focused on results for companies and professionals.',
+    'footer.cta': 'Reviews',
+    'footer.nav.title': 'Navigation',
+    'footer.nav.about': 'About',
+    'footer.nav.skills': 'Skills',
+    'footer.nav.projects': 'Projects',
+    'footer.nav.reviews': 'Reviews',
+    'footer.contact.title': 'Contacts',
+    'footer.contact.email': 'Email',
+    'footer.contact.freelance': 'Freelance availability',
+    'footer.news.title': 'Newsletter',
+    'footer.news.desc': 'Get updates on new projects and technologies.',
+    'footer.news.placeholder': 'Enter your email',
+    'footer.news.aria': 'Newsletter email',
+    'footer.news.send': 'Send email',
+    'footer.copy': '© 2026 Kallebe Gallo •',
+    'hero.scroll': 'Scroll down',
+    'lightbox.close': 'Close preview',
+    'whatsapp.aria': 'Contact on WhatsApp',
+    'contact.title': 'Contact me:',
+    'contact.subtitle': 'Let’s talk about projects, ideas or opportunities?',
+    'contact.email': 'Email',
+    'footer.text': '© 2026 Kallebe Gallo • Junior Web Developer'
+  }
+};
+
+const languageMeta = {
+  it: { code: 'IT', flagSrc: 'https://flagcdn.com/w20/it.png', flagAlt: 'Bandiera Italia' },
+  de: { code: 'DE', flagSrc: 'https://flagcdn.com/w20/de.png', flagAlt: 'Bandiera Germania' },
+  fr: { code: 'FR', flagSrc: 'https://flagcdn.com/w20/fr.png', flagAlt: 'Bandiera Francia' },
+  en: { code: 'EN', flagSrc: 'https://flagcdn.com/w20/gb.png', flagAlt: 'Bandiera Regno Unito' }
+};
+
+const languageDropdown = document.getElementById('languageDropdown');
+const languageTrigger = document.getElementById('languageTrigger');
+const languageMenu = document.getElementById('languageMenu');
+const languageArrow = document.getElementById('languageArrow');
+const languageCurrentFlag = document.getElementById('languageCurrentFlag');
+const languageCurrentCode = document.getElementById('languageCurrentCode');
+const languageOptions = document.querySelectorAll('.language-option');
+
+function getSelectedOption() {
+  return document.querySelector('.language-option[aria-selected="true"]') || languageOptions[0];
+}
+
+function applyTranslations(lang) {
+  const dict = translations[lang] || translations.it;
+
+  document.title = dict.pageTitle;
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach((element) => {
+    const key = element.getAttribute('data-i18n');
+    if (dict[key]) {
+      element.textContent = dict[key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((element) => {
+    const key = element.getAttribute('data-i18n-placeholder');
+    if (dict[key]) {
+      element.setAttribute('placeholder', dict[key]);
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((element) => {
+    const key = element.getAttribute('data-i18n-aria-label');
+    if (dict[key]) {
+      element.setAttribute('aria-label', dict[key]);
+    }
+  });
+
+  document.querySelectorAll('.review-stars').forEach((element) => {
+    if (dict['reviews.stars']) {
+      element.setAttribute('aria-label', dict['reviews.stars']);
+    }
+  });
+
+  document.querySelectorAll('.review-card small').forEach((element) => {
+    if (dict['reviews.source']) {
+      element.textContent = dict['reviews.source'];
+    }
+  });
+
+  const reviewTexts = Array.from({ length: 10 }, (_, index) => dict[`reviews.text${index + 1}`]);
+  const reviewRoles = Array.from({ length: 10 }, (_, index) => dict[`reviews.role${index + 1}`]);
+
+  document.querySelectorAll('.review-card').forEach((card, index) => {
+    const normalizedIndex = index % 10;
+    const roleElement = card.querySelector('.review-head span');
+    const textElement = card.querySelector('p');
+
+    if (roleElement && reviewRoles[normalizedIndex]) {
+      roleElement.textContent = reviewRoles[normalizedIndex];
+    }
+
+    if (textElement && reviewTexts[normalizedIndex]) {
+      textElement.textContent = reviewTexts[normalizedIndex];
+    }
+  });
+}
+
+function setLanguageUI(lang) {
+  const selectedLang = languageMeta[lang] ? lang : 'it';
+  applyTranslations(selectedLang);
+
+  languageCurrentFlag.src = languageMeta[selectedLang].flagSrc;
+  languageCurrentFlag.alt = languageMeta[selectedLang].flagAlt;
+  languageCurrentCode.textContent = languageMeta[selectedLang].code;
+
+  languageOptions.forEach((option) => {
+    option.setAttribute('aria-selected', option.dataset.lang === selectedLang ? 'true' : 'false');
+  });
+
+  localStorage.setItem('siteLanguage', selectedLang);
+}
+
+function closeLanguageMenu() {
+  languageDropdown.classList.remove('open');
+  languageTrigger.setAttribute('aria-expanded', 'false');
+  languageArrow.textContent = '▾';
+}
+
+function openLanguageMenu() {
+  languageDropdown.classList.add('open');
+  languageTrigger.setAttribute('aria-expanded', 'true');
+  languageArrow.textContent = '▴';
+}
+
+languageTrigger.addEventListener('click', () => {
+  const isOpen = languageDropdown.classList.contains('open');
+  if (isOpen) {
+    closeLanguageMenu();
+  } else {
+    openLanguageMenu();
+  }
+});
+
+languageTrigger.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowDown' || event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    openLanguageMenu();
+    getSelectedOption().focus();
+  }
+});
+
+languageOptions.forEach((option) => {
+  option.addEventListener('click', () => {
+    const lang = option.dataset.lang;
+    setLanguageUI(lang);
+    closeLanguageMenu();
+    languageTrigger.focus();
+  });
+});
+
+languageMenu.addEventListener('keydown', (event) => {
+  const options = Array.from(languageOptions);
+  const currentIndex = options.indexOf(document.activeElement);
+
+  if (event.key === 'Escape') {
+    closeLanguageMenu();
+    languageTrigger.focus();
+    return;
+  }
+
+  if (event.key === 'ArrowDown') {
+    event.preventDefault();
+    const nextIndex = currentIndex < options.length - 1 ? currentIndex + 1 : 0;
+    options[nextIndex].focus();
+  }
+
+  if (event.key === 'ArrowUp') {
+    event.preventDefault();
+    const prevIndex = currentIndex > 0 ? currentIndex - 1 : options.length - 1;
+    options[prevIndex].focus();
+  }
+
+  if (event.key === 'Home') {
+    event.preventDefault();
+    options[0].focus();
+  }
+
+  if (event.key === 'End') {
+    event.preventDefault();
+    options[options.length - 1].focus();
+  }
+});
+
+document.addEventListener('click', (event) => {
+  if (!languageDropdown.contains(event.target)) {
+    closeLanguageMenu();
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    closeLanguageMenu();
+  }
+});
+
+const portfolioItems = document.querySelectorAll('.portfolio-item');
+const portfolioLightbox = document.getElementById('portfolioLightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxCaption = document.getElementById('lightboxCaption');
+const lightboxClose = document.getElementById('lightboxClose');
+const portfolioShowcase = document.querySelector('.portfolio-showcase');
+
+function closePortfolioLightbox() {
+  portfolioLightbox.classList.remove('open');
+  portfolioLightbox.setAttribute('aria-hidden', 'true');
+  lightboxImage.src = '';
+  lightboxCaption.textContent = '';
+}
+
+portfolioItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    const fullImage = item.getAttribute('data-full');
+    const projectTitle = item.getAttribute('data-title') || '';
+
+    lightboxImage.src = fullImage;
+    lightboxImage.alt = projectTitle;
+    lightboxCaption.textContent = projectTitle;
+    portfolioLightbox.classList.add('open');
+    portfolioLightbox.setAttribute('aria-hidden', 'false');
+  });
+});
+
+lightboxClose.addEventListener('click', closePortfolioLightbox);
+
+portfolioLightbox.addEventListener('click', (event) => {
+  if (event.target === portfolioLightbox) {
+    closePortfolioLightbox();
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && portfolioLightbox.classList.contains('open')) {
+    closePortfolioLightbox();
+  }
+});
+
+if (portfolioShowcase && window.matchMedia('(min-width: 1025px)').matches) {
+  const depthValues = [7, 11, 8, 12, 9, 10, 13, 8, 11, 9];
+
+  portfolioShowcase.addEventListener('mousemove', (event) => {
+    const rect = portfolioShowcase.getBoundingClientRect();
+    const pointerX = event.clientX - rect.left;
+    const pointerY = event.clientY - rect.top;
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const offsetX = (pointerX - centerX) / centerX;
+    const offsetY = (pointerY - centerY) / centerY;
+
+    portfolioItems.forEach((item, index) => {
+      const depth = depthValues[index] || 8;
+      item.style.setProperty('--px', `${(offsetX * depth).toFixed(2)}px`);
+      item.style.setProperty('--py', `${(offsetY * depth).toFixed(2)}px`);
+    });
+  });
+
+  portfolioShowcase.addEventListener('mouseleave', () => {
+    portfolioItems.forEach((item) => {
+      item.style.setProperty('--px', '0px');
+      item.style.setProperty('--py', '0px');
+    });
+  });
+}
+
+const nameBaseElement = document.getElementById('nameBase');
+const nameAccentElement = document.getElementById('nameAccent');
+
+if (nameBaseElement && nameAccentElement) {
+  const fullName = 'Kallebe Gallo';
+  const accentStart = 'Kallebe '.length;
+  let visibleLength = 0;
+  let isDeleting = false;
+
+  function renderTypingName() {
+    const visibleText = fullName.slice(0, visibleLength);
+
+    if (visibleLength <= accentStart) {
+      nameBaseElement.textContent = visibleText;
+      nameAccentElement.textContent = '';
+    } else {
+      nameBaseElement.textContent = fullName.slice(0, accentStart);
+      nameAccentElement.textContent = visibleText.slice(accentStart);
+    }
+  }
+
+  function animateTypingName() {
+    if (!isDeleting) {
+      visibleLength += 1;
+      if (visibleLength >= fullName.length) {
+        isDeleting = true;
+        setTimeout(animateTypingName, 1300);
+        renderTypingName();
+        return;
+      }
+    } else {
+      visibleLength -= 1;
+      if (visibleLength <= 0) {
+        isDeleting = false;
+        setTimeout(animateTypingName, 400);
+        renderTypingName();
+        return;
+      }
+    }
+
+    renderTypingName();
+    const speed = isDeleting ? 80 : 120;
+    setTimeout(animateTypingName, speed);
+  }
+
+  renderTypingName();
+  setTimeout(animateTypingName, 500);
+}
+
+const savedLang = localStorage.getItem('siteLanguage') || 'it';
+setLanguageUI(savedLang);
+</script>
+
+
+
+</body>
+</html>
