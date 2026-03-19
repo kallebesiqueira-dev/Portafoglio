@@ -306,6 +306,36 @@ body {
   color: var(--muted);
 }
 
+.hero-subtitle {
+  position: relative;
+  z-index: 2;
+  margin-right: 150px;
+  margin-bottom: 28px;
+  font-size: 1.15rem;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+}
+
+.hero-cta {
+  position: relative;
+  z-index: 2;
+  margin-right: 150px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  color: #020617;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.hero-cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(56, 189, 248, 0.4);
+}
+
 .scroll-indicator {
   position: absolute;
   left: 50%;
@@ -1093,6 +1123,11 @@ section p {
   .hero-header h1 {
     margin-right: 0;
     margin-top: 10px;
+  }
+
+  .hero-subtitle,
+  .hero-cta {
+    margin-right: 0;
   }
 
   .scroll-indicator {
