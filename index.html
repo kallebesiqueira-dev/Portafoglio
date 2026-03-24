@@ -22,7 +22,7 @@
 </div>
 
 <h1 class="hero-typing" aria-label="Kallebe Gallo">
-  <span id="nameBase"></span><span class="name-accent" id="nameAccent"></span><span class="typing-cursor" aria-hidden="true">|</span>
+  <span id="nameBase"></span><span class="name-accent" id="nameAccent"></span>
 </h1>
 
 <a href="#sobre" class="scroll-indicator" aria-label="Scorri verso il basso" data-i18n-aria-label="hero.scroll">
@@ -116,38 +116,285 @@ La mia attività comprende dal planning strategico all’implementazione tecnica
 
 
 <section id="projetos">
-  <h2 data-i18n="projects.title">Progetti</h2>
-  <div class="portfolio-showcase" aria-label="Portfolio progetti web">
-    <button class="portfolio-item p1" type="button" data-full="img/AlpenBau%20SA.png" data-title="AlpenBau SA">
-      <img src="img/AlpenBau%20SA.png" alt="Preview AlpenBau SA">
-    </button>
-    <button class="portfolio-item p2" type="button" data-full="img/App%20Contabile%20Pro.png" data-title="App Contabile Pro">
-      <img src="img/App%20Contabile%20Pro.png" alt="Preview App Contabile Pro">
-    </button>
-    <button class="portfolio-item p3" type="button" data-full="img/Bella%20Burguer.png" data-title="Bella Burguer">
-      <img src="img/Bella%20Burguer.png" alt="Preview Bella Burguer">
-    </button>
-    <button class="portfolio-item p4" type="button" data-full="img/Blog%20Maicol.png" data-title="Blog Maicol">
-      <img src="img/Blog%20Maicol.png" alt="Preview Blog Maicol">
-    </button>
-    <button class="portfolio-item p5" type="button" data-full="img/Corsi.png" data-title="Corsi">
-      <img src="img/Corsi.png" alt="Preview Corsi">
-    </button>
-    <button class="portfolio-item p6" type="button" data-full="img/Forno%20D%27oro.png" data-title="Forno D'oro">
-      <img src="img/Forno%20D%27oro.png" alt="Preview Forno D'oro">
-    </button>
-    <button class="portfolio-item p7" type="button" data-full="img/Garage%20Ticino.png" data-title="Garage Ticino">
-      <img src="img/Garage%20Ticino.png" alt="Preview Garage Ticino">
-    </button>
-    <button class="portfolio-item p8" type="button" data-full="img/North%20Pake%20Gold.png" data-title="North Pake Gold">
-      <img src="img/North%20Pake%20Gold.png" alt="Preview North Pake Gold">
-    </button>
-    <button class="portfolio-item p9" type="button" data-full="img/Verde%20Vivo.png" data-title="Verde Vivo">
-      <img src="img/Verde%20Vivo.png" alt="Preview Verde Vivo">
-    </button>
-    <button class="portfolio-item p10" type="button" data-full="img/Vittorino%20Barber.png" data-title="Vittorino Barber">
-      <img src="img/Vittorino%20Barber.png" alt="Preview Vittorino Barber">
-    </button>
+  <div class="project-book-shell">
+    <div class="project-book-frame">
+      <button class="book-nav book-nav-prev" id="bookPrev" type="button" aria-label="Pagina precedente" data-i18n-aria-label="book.nav.prev">‹</button>
+
+      <div class="project-book" id="projectBook" aria-label="Portfolio progetti web" data-i18n-aria-label="book.aria">
+        <div class="book-spine" aria-hidden="true"></div>
+        <div class="book-page-stack">
+          <div class="book-underlay">
+            <span class="book-underlay-end" data-i18n="book.manifest.end">Fine</span>
+          </div>
+
+          <article class="book-sheet book-sheet-cover" data-sheet-label="Progetti">
+            <div class="book-face book-face-front book-cover-face">
+              <h3 data-i18n="projects.title">Progetti</h3>
+              <p class="book-cover-phrase" data-i18n="book.heading.note">Una selezione pensata come un libro di studio: copertina, pagine corpose e navigazione laterale con gesto di sfoglio.</p>
+            </div>
+            <div class="book-face book-face-back book-manifest-face">
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Gold Barber Shop">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/1.png" alt="Preview Gold Barber Shop">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.featured">Barber premium</span>
+                <h3>Gold Barber Shop</h3>
+                <p data-i18n="book.desc.alpenbau">Identità solida, struttura d’impatto e composizione pensata per comunicare affidabilità premium.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/2.png" data-title="Gold Barber Shop" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/2.png" alt="Preview Gold Barber Shop dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.featured">Barber premium</span>
+                <h3>Gold Barber Shop</h3>
+                <p data-i18n="book.desc.alpenbau">Identità solida, struttura d’impatto e composizione pensata per comunicare affidabilità premium.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/2.png" data-title="Gold Barber Shop" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Bella Burger">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/3.png" alt="Preview Bella Burger">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.product">Food branding</span>
+                <h3>Bella Burger</h3>
+                <p data-i18n="book.desc.app">Dashboard finanziaria con gerarchia pulita, lettura immediata dei dati e presenza visiva senior.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/4.png" data-title="Bella Burger" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/4.png" alt="Preview Bella Burger dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.product">Food branding</span>
+                <h3>Bella Burger</h3>
+                <p data-i18n="book.desc.app">Dashboard finanziaria con gerarchia pulita, lettura immediata dei dati e presenza visiva senior.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/4.png" data-title="Bella Burger" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Tata Button Maker">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/5.png" alt="Preview Tata Button Maker">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.brand">Artigianato creativo</span>
+                <h3>Tata Button Maker</h3>
+                <p data-i18n="book.desc.bella">Direzione calda, fotografia eroica e call to action disegnate per conversione e memorabilità.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/6.png" data-title="Tata Button Maker" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/6.png" alt="Preview Tata Button Maker dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.brand">Artigianato creativo</span>
+                <h3>Tata Button Maker</h3>
+                <p data-i18n="book.desc.bella">Direzione calda, fotografia eroica e call to action disegnate per conversione e memorabilità.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/6.png" data-title="Tata Button Maker" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Contabile Pro">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/7.png" alt="Preview Contabile Pro">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.editorial">Suite contabile</span>
+                <h3>Contabile Pro</h3>
+                <p data-i18n="book.desc.blog">Un linguaggio editoriale più denso, pensato per contenuto, autorevolezza e permanenza sulla pagina.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/8.png" data-title="Contabile Pro" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/8.png" alt="Preview Contabile Pro dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.editorial">Suite contabile</span>
+                <h3>Contabile Pro</h3>
+                <p data-i18n="book.desc.blog">Un linguaggio editoriale più denso, pensato per contenuto, autorevolezza e permanenza sulla pagina.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/8.png" data-title="Contabile Pro" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="D&amp;G Automobili">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/9.png" alt="Preview D&amp;G Automobili">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.education">Automotive luxury</span>
+                <h3>D&amp;G Automobili</h3>
+                <p data-i18n="book.desc.corsi">Pagina orientata al percorso utente, con un equilibrio controllato tra enfasi tipografica e fiducia.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/10.png" data-title="D&amp;G Automobili" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/10.png" alt="Preview D&amp;G Automobili dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.education">Automotive luxury</span>
+                <h3>D&amp;G Automobili</h3>
+                <p data-i18n="book.desc.corsi">Pagina orientata al percorso utente, con un equilibrio controllato tra enfasi tipografica e fiducia.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/10.png" data-title="D&amp;G Automobili" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Milkshake UAU">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/11.png" alt="Preview Milkshake UAU">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.hospitality">Beverage identity</span>
+                <h3>Milkshake UAU</h3>
+                <p data-i18n="book.desc.forno">Un progetto sensoriale, fatto di luce, contrasto e composizione capace di evocare immediatamente il prodotto.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/12.png" data-title="Milkshake UAU" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/12.png" alt="Preview Milkshake UAU dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.hospitality">Beverage identity</span>
+                <h3>Milkshake UAU</h3>
+                <p data-i18n="book.desc.forno">Un progetto sensoriale, fatto di luce, contrasto e composizione capace di evocare immediatamente il prodotto.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/12.png" data-title="Milkshake UAU" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Odentrics Dentista">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/13.png" alt="Preview Odentrics Dentista">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.performance">Clinica dentale</span>
+                <h3>Odentrics Dentista</h3>
+                <p data-i18n="book.desc.garage">Un’impronta dark, tecnica e veloce, costruita per trasmettere precisione e potenza del marchio.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/14.png" data-title="Odentrics Dentista" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/14.png" alt="Preview Odentrics Dentista dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.performance">Clinica dentale</span>
+                <h3>Odentrics Dentista</h3>
+                <p data-i18n="book.desc.garage">Un’impronta dark, tecnica e veloce, costruita per trasmettere precisione e potenza del marchio.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/14.png" data-title="Odentrics Dentista" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="SpaceX">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/15.png" alt="Preview SpaceX">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.positioning">Visione spaziale</span>
+                <h3>SpaceX</h3>
+                <p data-i18n="book.desc.north">Scelte visive pulite e tono autorevole per valorizzare prodotto, dettaglio e percezione di qualità.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/16.png" data-title="SpaceX" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/16.png" alt="Preview SpaceX dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.positioning">Visione spaziale</span>
+                <h3>SpaceX</h3>
+                <p data-i18n="book.desc.north">Scelte visive pulite e tono autorevole per valorizzare prodotto, dettaglio e percezione di qualità.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/16.png" data-title="SpaceX" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Direttore Vendita">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/17.png" alt="Preview Direttore Vendita">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.organic">Leadership commerciale</span>
+                <h3>Direttore Vendita</h3>
+                <p data-i18n="book.desc.verde">Una pagina luminosa, equilibrata e respirata, pensata per trasmettere naturalezza con taglio alto.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/18.png" data-title="Direttore Vendita" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/18.png" alt="Preview Direttore Vendita dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.organic">Leadership commerciale</span>
+                <h3>Direttore Vendita</h3>
+                <p data-i18n="book.desc.verde">Una pagina luminosa, equilibrata e respirata, pensata per trasmettere naturalezza con taglio alto.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/18.png" data-title="Direttore Vendita" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-sheet" data-sheet-label="Aprenser">
+            <div class="book-face book-face-front">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/19.png" alt="Preview Aprenser">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.luxury">Piattaforma educativa</span>
+                <h3>Aprenser</h3>
+                <p data-i18n="book.desc.vittorino">Un’estetica più sartoriale, tipografia elegante e forte atmosfera per un posizionamento distintivo.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/20.png" data-title="Aprenser" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+            <div class="book-face book-face-back">
+              <div class="book-project-visual" data-preview-label="Apri preview" data-i18n-preview-label="book.preview">
+                <img src="img/livro/20.png" alt="Preview Aprenser dettagli">
+              </div>
+              <div class="book-project-copy">
+                <span class="book-page-type" data-i18n="book.type.luxury">Piattaforma educativa</span>
+                <h3>Aprenser</h3>
+                <p data-i18n="book.desc.vittorino">Un’estetica più sartoriale, tipografia elegante e forte atmosfera per un posizionamento distintivo.</p>
+                <button class="book-preview-trigger" type="button" data-full="img/livro/20.png" data-title="Aprenser" data-i18n="book.preview">Apri preview</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="book-swipe-hint" aria-label="Scorri lateralmente con il dito" data-i18n-aria-label="book.mobile.hint.aria">
+        <span class="book-swipe-hint-icon" aria-hidden="true"></span>
+        <span class="book-swipe-hint-text" data-i18n="book.mobile.hint">Scorri lateralmente</span>
+      </div>
+
+      <button class="book-nav book-nav-next" id="bookNext" type="button" aria-label="Pagina successiva" data-i18n-aria-label="book.nav.next">›</button>
+    </div>
   </div>
 </section>
 
@@ -535,6 +782,41 @@ const translations = {
     'projects.p2.desc': 'Design moderno e conversione ottimizzata per business digitali.',
     'projects.p3.title': 'Applicazioni Web',
     'projects.p3.desc': 'Dashboard, pannelli amministrativi e soluzioni personalizzate.',
+    'book.heading.kicker': 'Volume curato',
+    'book.heading.note': 'Una selezione pensata come un libro di studio: copertina, pagine corpose e navigazione laterale con gesto di sfoglio.',
+    'book.aria': 'Portfolio progetti web',
+    'book.nav.prev': 'Pagina precedente',
+    'book.nav.next': 'Pagina successiva',
+    'book.mobile.hint': 'Scorri lateralmente',
+    'book.mobile.hint.aria': 'Scorri lateralmente con il dito',
+    'book.cover.desc': 'Esperienze digitali concepite con attenzione editoriale, ritmo visivo e precisione tecnica.',
+    'book.manifest.type': 'Manifesto',
+    'book.manifest.title': 'Sfoglia il portfolio',
+    'book.manifest.desc': 'Clicca ai lati oppure trascina orizzontalmente per voltare le pagine come un volume fisico.',
+    'book.manifest.end': 'Fine',
+    'book.type.featured': 'Barber premium',
+    'book.type.product': 'Food branding',
+    'book.type.brand': 'Artigianato creativo',
+    'book.type.editorial': 'Suite contabile',
+    'book.type.education': 'Automotive luxury',
+    'book.type.hospitality': 'Beverage identity',
+    'book.type.performance': 'Clinica dentale',
+    'book.type.positioning': 'Visione spaziale',
+    'book.type.organic': 'Leadership commerciale',
+    'book.type.luxury': 'Piattaforma educativa',
+    'book.desc.alpenbau': 'Un’identità premium per barber shop, con atmosfera curata, ritmo visivo deciso e presenza da marchio distintivo.',
+    'book.desc.app': 'Un progetto food dal taglio diretto, costruito per fame visiva, impatto immediato e conversione.',
+    'book.desc.bella': 'Una presenza artigianale più narrativa, pensata per valorizzare prodotto, dettaglio e carattere del brand.',
+    'book.desc.blog': 'Interfaccia contabile pulita e leggibile, con gerarchia chiara e una percezione tecnica più senior.',
+    'book.desc.corsi': 'Un linguaggio automotive di fascia alta, fatto di contrasto, precisione e autorevolezza visiva.',
+    'book.desc.forno': 'Colore, energia e direzione commerciale per un brand beverage più memorabile e immediato.',
+    'book.desc.garage': 'Un impianto visivo affidabile per il settore dentistico, con chiarezza, fiducia e tono professionale.',
+    'book.desc.north': 'Un’estetica futuristica e controllata, costruita per trasmettere innovazione, ambizione e forza tecnica.',
+    'book.desc.verde': 'Una presenza più autorevole e orientata al business, con struttura chiara e comunicazione diretta.',
+    'book.desc.vittorino': 'Una piattaforma educativa con ritmo pulito, leggibilità alta e struttura pensata per apprendimento e fiducia.',
+    'book.preview': 'Apri preview',
+    'book.status.cover': 'Copertina',
+    'book.status.finale': 'Finale',
     'reviews.title': 'Recensioni',
     'reviews.subtitle': 'Feedback reali in stile Google da clienti e collaboratori.',
     'reviews.aria': 'Recensioni clienti',
@@ -620,6 +902,41 @@ const translations = {
     'projects.p2.desc': 'Modernes Design und optimierte Conversion für digitale Unternehmen.',
     'projects.p3.title': 'Webanwendungen',
     'projects.p3.desc': 'Dashboards, Admin-Panels und maßgeschneiderte Lösungen.',
+    'book.heading.kicker': 'Kuratiertes Volume',
+    'book.heading.note': 'Eine Auswahl, gedacht wie ein Studio-Buch: Cover, dichte Seiten und seitliche Navigation mit Blättergeste.',
+    'book.aria': 'Portfolio der Webprojekte',
+    'book.nav.prev': 'Vorherige Seite',
+    'book.nav.next': 'Nächste Seite',
+    'book.mobile.hint': 'Seitlich wischen',
+    'book.mobile.hint.aria': 'Mit dem Finger seitlich wischen',
+    'book.cover.desc': 'Digitale Erlebnisse mit editorischer Präzision, visuellem Rhythmus und technischer Sorgfalt gestaltet.',
+    'book.manifest.type': 'Manifest',
+    'book.manifest.title': 'Blättere durch das Portfolio',
+    'book.manifest.desc': 'Klicke an den Seiten oder ziehe horizontal, um die Seiten wie in einem physischen Buch umzublättern.',
+    'book.manifest.end': 'Ende',
+    'book.type.featured': 'Premium-Barber',
+    'book.type.product': 'Food-Branding',
+    'book.type.brand': 'Kreatives Handwerk',
+    'book.type.editorial': 'Accounting-Suite',
+    'book.type.education': 'Automotive Luxury',
+    'book.type.hospitality': 'Beverage Identity',
+    'book.type.performance': 'Dental Clinic',
+    'book.type.positioning': 'Space Vision',
+    'book.type.organic': 'Sales Leadership',
+    'book.type.luxury': 'Education Platform',
+    'book.desc.alpenbau': 'Eine Premium-Identität für einen Barber Shop mit kuratierter Atmosphäre, klarem Rhythmus und markanter Präsenz.',
+    'book.desc.app': 'Ein Food-Projekt mit direkter Wirkung, gebaut für visuellen Appetit, Sofortwirkung und Conversion.',
+    'book.desc.bella': 'Eine handwerkliche, erzählerische Präsenz, die Produkt, Detail und Markencharakter stärker hervorhebt.',
+    'book.desc.blog': 'Eine saubere, gut lesbare Buchhaltungsoberfläche mit klarer Hierarchie und seniorer technischer Anmutung.',
+    'book.desc.corsi': 'Eine hochwertige Automotive-Sprache aus Kontrast, Präzision und visueller Autorität.',
+    'book.desc.forno': 'Farbe, Energie und kommerzielle Richtung für eine einprägsame und unmittelbare Beverage-Marke.',
+    'book.desc.garage': 'Ein verlässliches visuelles System für den Dentalbereich mit Klarheit, Vertrauen und professionellem Ton.',
+    'book.desc.north': 'Eine futuristische und kontrollierte Ästhetik, gebaut für Innovation, Ambition und technische Stärke.',
+    'book.desc.verde': 'Eine autoritativere, stärker businessorientierte Präsenz mit klarer Struktur und direkter Kommunikation.',
+    'book.desc.vittorino': 'Eine Lernplattform mit sauberem Rhythmus, hoher Lesbarkeit und Struktur für Lernen und Vertrauen.',
+    'book.preview': 'Vorschau öffnen',
+    'book.status.cover': 'Cover',
+    'book.status.finale': 'Finale',
     'reviews.title': 'Bewertungen',
     'reviews.subtitle': 'Echte Google-ähnliche Rückmeldungen von Kunden und Partnern.',
     'reviews.aria': 'Kundenbewertungen',
@@ -705,6 +1022,41 @@ const translations = {
     'projects.p2.desc': 'Design moderne et conversion optimisée pour les entreprises digitales.',
     'projects.p3.title': 'Applications web',
     'projects.p3.desc': 'Tableaux de bord, panneaux administratifs et solutions personnalisées.',
+    'book.heading.kicker': 'Volume curaté',
+    'book.heading.note': 'Une sélection pensée comme un livre de studio : couverture, pages denses et navigation latérale avec geste de feuilletage.',
+    'book.aria': 'Portfolio de projets web',
+    'book.nav.prev': 'Page précédente',
+    'book.nav.next': 'Page suivante',
+    'book.mobile.hint': 'Faites glisser latéralement',
+    'book.mobile.hint.aria': 'Faites glisser latéralement avec le doigt',
+    'book.cover.desc': 'Des expériences digitales conçues avec regard éditorial, rythme visuel et précision technique.',
+    'book.manifest.type': 'Manifeste',
+    'book.manifest.title': 'Feuilletez le portfolio',
+    'book.manifest.desc': 'Cliquez sur les côtés ou faites glisser horizontalement pour tourner les pages comme un volume physique.',
+    'book.manifest.end': 'Fin',
+    'book.type.featured': 'Barber premium',
+    'book.type.product': 'Branding food',
+    'book.type.brand': 'Artisanat créatif',
+    'book.type.editorial': 'Suite comptable',
+    'book.type.education': 'Automobile luxe',
+    'book.type.hospitality': 'Identité beverage',
+    'book.type.performance': 'Clinique dentaire',
+    'book.type.positioning': 'Vision spatiale',
+    'book.type.organic': 'Leadership commercial',
+    'book.type.luxury': 'Plateforme éducative',
+    'book.desc.alpenbau': 'Une identité premium pour barber shop, avec une atmosphère soignée, un rythme visuel affirmé et une présence distinctive.',
+    'book.desc.app': 'Un projet food au langage direct, conçu pour l’appétit visuel, l’impact immédiat et la conversion.',
+    'book.desc.bella': 'Une présence plus artisanale et narrative, pensée pour valoriser le produit, le détail et le caractère de la marque.',
+    'book.desc.blog': 'Une interface comptable propre et lisible, avec hiérarchie claire et perception technique plus senior.',
+    'book.desc.corsi': 'Un langage automobile haut de gamme fait de contraste, de précision et d’autorité visuelle.',
+    'book.desc.forno': 'Couleur, énergie et direction commerciale pour une marque beverage plus mémorable et immédiate.',
+    'book.desc.garage': 'Une structure visuelle fiable pour le secteur dentaire, avec clarté, confiance et ton professionnel.',
+    'book.desc.north': 'Une esthétique futuriste et maîtrisée, construite pour transmettre innovation, ambition et force technique.',
+    'book.desc.verde': 'Une présence plus autoritaire et orientée business, avec structure claire et communication directe.',
+    'book.desc.vittorino': 'Une plateforme éducative au rythme propre, à la lecture élevée et à la structure pensée pour l’apprentissage.',
+    'book.preview': 'Ouvrir l’aperçu',
+    'book.status.cover': 'Couverture',
+    'book.status.finale': 'Final',
     'reviews.title': 'Avis',
     'reviews.subtitle': 'Retours réels de style Google de clients et collaborateurs.',
     'reviews.aria': 'Avis clients',
@@ -790,6 +1142,41 @@ const translations = {
     'projects.p2.desc': 'Modern design and optimized conversion for digital businesses.',
     'projects.p3.title': 'Web Applications',
     'projects.p3.desc': 'Dashboards, admin panels and custom solutions.',
+    'book.heading.kicker': 'Curated volume',
+    'book.heading.note': 'A selection designed like a studio book: cover, dense pages, and lateral navigation with a page-turn gesture.',
+    'book.aria': 'Web projects portfolio',
+    'book.nav.prev': 'Previous page',
+    'book.nav.next': 'Next page',
+    'book.mobile.hint': 'Swipe sideways',
+    'book.mobile.hint.aria': 'Swipe sideways with your finger',
+    'book.cover.desc': 'Digital experiences shaped with editorial care, visual rhythm, and technical precision.',
+    'book.manifest.type': 'Manifesto',
+    'book.manifest.title': 'Browse the portfolio',
+    'book.manifest.desc': 'Click the sides or drag horizontally to turn the pages like a physical volume.',
+    'book.manifest.end': 'End',
+    'book.type.featured': 'Premium barber',
+    'book.type.product': 'Food branding',
+    'book.type.brand': 'Creative craft',
+    'book.type.editorial': 'Accounting suite',
+    'book.type.education': 'Automotive luxury',
+    'book.type.hospitality': 'Beverage identity',
+    'book.type.performance': 'Dental clinic',
+    'book.type.positioning': 'Space vision',
+    'book.type.organic': 'Sales leadership',
+    'book.type.luxury': 'Education platform',
+    'book.desc.alpenbau': 'A premium barber shop identity with a curated atmosphere, strong visual rhythm, and distinctive brand presence.',
+    'book.desc.app': 'A food project built for visual appetite, immediate impact, and stronger conversion.',
+    'book.desc.bella': 'A more crafted, narrative presence designed to elevate product, detail, and brand character.',
+    'book.desc.blog': 'A clean, readable accounting interface with clear hierarchy and a more senior technical feel.',
+    'book.desc.corsi': 'A high-end automotive language built on contrast, precision, and visual authority.',
+    'book.desc.forno': 'Color, energy, and commercial direction for a beverage brand with stronger memorability and punch.',
+    'book.desc.garage': 'A reliable visual system for the dental sector, built around clarity, trust, and professional tone.',
+    'book.desc.north': 'A futuristic and controlled aesthetic designed to communicate innovation, ambition, and technical strength.',
+    'book.desc.verde': 'A more authoritative, business-oriented presence with clear structure and direct communication.',
+    'book.desc.vittorino': 'An education platform with clean rhythm, strong readability, and a structure built for learning and trust.',
+    'book.preview': 'Open preview',
+    'book.status.cover': 'Cover',
+    'book.status.finale': 'Finale',
     'reviews.title': 'Reviews',
     'reviews.subtitle': 'Real Google-style feedback from clients and collaborators.',
     'reviews.aria': 'Client reviews',
@@ -855,6 +1242,12 @@ const languageArrow = document.getElementById('languageArrow');
 const languageCurrentFlag = document.getElementById('languageCurrentFlag');
 const languageCurrentCode = document.getElementById('languageCurrentCode');
 const languageOptions = document.querySelectorAll('.language-option');
+let refreshBookStatus = null;
+
+function getTranslationValue(key) {
+  const currentLang = translations[document.documentElement.lang] ? document.documentElement.lang : 'it';
+  return translations[currentLang]?.[key] || translations.it[key] || '';
+}
 
 function getSelectedOption() {
   return document.querySelector('.language-option[aria-selected="true"]') || languageOptions[0];
@@ -886,6 +1279,13 @@ function applyTranslations(lang) {
     }
   });
 
+  document.querySelectorAll('[data-i18n-preview-label]').forEach((element) => {
+    const key = element.getAttribute('data-i18n-preview-label');
+    if (dict[key]) {
+      element.setAttribute('data-preview-label', dict[key]);
+    }
+  });
+
   document.querySelectorAll('.review-stars').forEach((element) => {
     if (dict['reviews.stars']) {
       element.setAttribute('aria-label', dict['reviews.stars']);
@@ -914,6 +1314,10 @@ function applyTranslations(lang) {
       textElement.textContent = reviewTexts[normalizedIndex];
     }
   });
+
+  if (typeof refreshBookStatus === 'function') {
+    refreshBookStatus();
+  }
 }
 
 function setLanguageUI(lang) {
@@ -1014,12 +1418,44 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
-const portfolioItems = document.querySelectorAll('.portfolio-item');
 const portfolioLightbox = document.getElementById('portfolioLightbox');
 const lightboxImage = document.getElementById('lightboxImage');
 const lightboxCaption = document.getElementById('lightboxCaption');
 const lightboxClose = document.getElementById('lightboxClose');
-const portfolioShowcase = document.querySelector('.portfolio-showcase');
+const projectBook = document.getElementById('projectBook');
+const bookSheets = Array.from(document.querySelectorAll('.book-sheet'));
+const bookPreviewTriggers = document.querySelectorAll('.book-preview-trigger');
+const bookPreviewVisuals = document.querySelectorAll('.book-project-visual');
+const bookPrev = document.getElementById('bookPrev');
+const bookNext = document.getElementById('bookNext');
+const bookStatus = document.getElementById('bookStatus');
+const inPageAnchors = document.querySelectorAll('a[href^="#"]');
+
+function normalizeBookPreviewPairs() {
+  document.querySelectorAll('.book-face').forEach((face) => {
+    const imageElement = face.querySelector('.book-project-visual img');
+    const previewTrigger = face.querySelector('.book-preview-trigger');
+
+    if (!imageElement || !previewTrigger) {
+      return;
+    }
+
+    const match = imageElement.getAttribute('src')?.match(/img\/livro\/(\d+)\.png$/i);
+    if (!match) {
+      return;
+    }
+
+    const imageNumber = Number.parseInt(match[1], 10);
+    if (Number.isNaN(imageNumber)) {
+      return;
+    }
+
+    const previewNumber = imageNumber % 2 === 1 ? Math.min(imageNumber + 1, 20) : imageNumber;
+    previewTrigger.dataset.full = `img/livro/${previewNumber}.png`;
+  });
+}
+
+normalizeBookPreviewPairs();
 
 function closePortfolioLightbox() {
   portfolioLightbox.classList.remove('open');
@@ -1028,16 +1464,32 @@ function closePortfolioLightbox() {
   lightboxCaption.textContent = '';
 }
 
-portfolioItems.forEach((item) => {
-  item.addEventListener('click', () => {
-    const fullImage = item.getAttribute('data-full');
-    const projectTitle = item.getAttribute('data-title') || '';
+function openPortfolioLightbox(fullImage, projectTitle) {
+  if (!fullImage) {
+    return;
+  }
 
-    lightboxImage.src = fullImage;
-    lightboxImage.alt = projectTitle;
-    lightboxCaption.textContent = projectTitle;
-    portfolioLightbox.classList.add('open');
-    portfolioLightbox.setAttribute('aria-hidden', 'false');
+  lightboxImage.src = fullImage;
+  lightboxImage.alt = projectTitle;
+  lightboxCaption.textContent = projectTitle;
+  portfolioLightbox.classList.add('open');
+  portfolioLightbox.setAttribute('aria-hidden', 'false');
+}
+
+bookPreviewTriggers.forEach((trigger) => {
+  trigger.addEventListener('click', (event) => {
+    event.stopPropagation();
+    openPortfolioLightbox(trigger.dataset.full, trigger.dataset.title || '');
+  });
+});
+
+bookPreviewVisuals.forEach((visual) => {
+  visual.addEventListener('click', (event) => {
+    event.stopPropagation();
+    const previewTrigger = visual.parentElement?.querySelector('.book-preview-trigger');
+    if (previewTrigger) {
+      openPortfolioLightbox(previewTrigger.dataset.full, previewTrigger.dataset.title || '');
+    }
   });
 });
 
@@ -1055,31 +1507,339 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
-if (portfolioShowcase && window.matchMedia('(min-width: 1025px)').matches) {
-  const depthValues = [7, 11, 8, 12, 9, 10, 13, 8, 11, 9];
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const revealTargets = document.querySelectorAll('#sobre, .skills-intro, #skills-container, #projetos, .reviews, .site-footer');
 
-  portfolioShowcase.addEventListener('mousemove', (event) => {
-    const rect = portfolioShowcase.getBoundingClientRect();
-    const pointerX = event.clientX - rect.left;
-    const pointerY = event.clientY - rect.top;
-    const centerX = rect.width / 2;
-    const centerY = rect.height / 2;
-    const offsetX = (pointerX - centerX) / centerX;
-    const offsetY = (pointerY - centerY) / centerY;
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
 
-    portfolioItems.forEach((item, index) => {
-      const depth = depthValues[index] || 8;
-      item.style.setProperty('--px', `${(offsetX * depth).toFixed(2)}px`);
-      item.style.setProperty('--py', `${(offsetY * depth).toFixed(2)}px`);
-    });
+function easeInOutCubic(value) {
+  return value < 0.5
+    ? 4 * value * value * value
+    : 1 - Math.pow(-2 * value + 2, 3) / 2;
+}
+
+function smoothScrollToPosition(targetY) {
+  const startY = window.scrollY || window.pageYOffset;
+  const distance = targetY - startY;
+  const duration = Math.min(2400, Math.max(1300, Math.abs(distance) * 0.9));
+  const startTime = performance.now();
+
+  function step(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = clamp(elapsed / duration, 0, 1);
+    const eased = easeInOutCubic(progress);
+
+    window.scrollTo(0, startY + distance * eased);
+
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  }
+
+  window.requestAnimationFrame(step);
+}
+
+inPageAnchors.forEach((anchor) => {
+  anchor.addEventListener('click', (event) => {
+    const rawTarget = anchor.getAttribute('href');
+    if (!rawTarget || !rawTarget.startsWith('#')) {
+      return;
+    }
+
+    const targetElement = rawTarget === '#' ? document.documentElement : document.querySelector(rawTarget);
+    if (!targetElement) {
+      return;
+    }
+
+    event.preventDefault();
+
+    const navHeight = document.querySelector('.main-nav')?.offsetHeight || 0;
+    const targetY = rawTarget === '#'
+      ? 0
+      : Math.max(targetElement.getBoundingClientRect().top + window.scrollY - navHeight - 24, 0);
+
+    if (prefersReducedMotion) {
+      window.scrollTo({ top: targetY, behavior: 'auto' });
+    } else {
+      smoothScrollToPosition(targetY);
+    }
+
+    if (rawTarget === '#') {
+      history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+    } else {
+      history.replaceState(null, '', rawTarget);
+    }
+  });
+});
+
+if (!prefersReducedMotion) {
+  document.documentElement.classList.add('motion-ready');
+
+  revealTargets.forEach((element) => {
+    element.classList.add('scroll-reveal');
   });
 
-  portfolioShowcase.addEventListener('mouseleave', () => {
-    portfolioItems.forEach((item) => {
-      item.style.setProperty('--px', '0px');
-      item.style.setProperty('--py', '0px');
+  if ('IntersectionObserver' in window) {
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.16,
+      rootMargin: '0px 0px -8% 0px'
     });
+
+    revealTargets.forEach((element) => {
+      revealObserver.observe(element);
+    });
+  } else {
+    revealTargets.forEach((element) => {
+      element.classList.add('is-visible');
+    });
+  }
+} else {
+  revealTargets.forEach((element) => {
+    element.classList.add('is-visible');
   });
+}
+
+if (projectBook && bookSheets.length) {
+  let currentSheet = 0;
+  let pointerStartX = 0;
+  let pointerDeltaX = 0;
+  let isPointerActive = false;
+  let activeDragSheet = null;
+  let activeDragDirection = 0;
+  const maxSheetIndex = bookSheets.length;
+
+  function updateBookState() {
+    bookSheets.forEach((sheet, index) => {
+      sheet.classList.toggle('is-flipped', index < currentSheet);
+      sheet.style.zIndex = `${bookSheets.length - index}`;
+    });
+
+    if (bookPrev) {
+      bookPrev.disabled = currentSheet === 0;
+    }
+
+    if (bookNext) {
+      bookNext.disabled = currentSheet === maxSheetIndex;
+    }
+
+    if (bookStatus) {
+      if (currentSheet === 0) {
+        bookStatus.textContent = getTranslationValue('book.status.cover');
+      } else if (currentSheet === maxSheetIndex) {
+        bookStatus.textContent = getTranslationValue('book.status.finale');
+      } else {
+        bookStatus.textContent = bookSheets[currentSheet].dataset.sheetLabel || 'Progetti';
+      }
+    }
+  }
+
+  refreshBookStatus = updateBookState;
+
+  function goToNextSheet() {
+    if (currentSheet < maxSheetIndex) {
+      currentSheet += 1;
+      updateBookState();
+    }
+  }
+
+  function goToPreviousSheet() {
+    if (currentSheet > 0) {
+      currentSheet -= 1;
+      updateBookState();
+    }
+  }
+
+  function clearDragPreview(removeTransition = true) {
+    if (activeDragSheet) {
+      activeDragSheet.classList.remove('is-drag-preview', 'is-drag-next', 'is-drag-prev');
+      activeDragSheet.style.removeProperty('--page-curl');
+      activeDragSheet.style.removeProperty('transform');
+      if (removeTransition) {
+        activeDragSheet.style.removeProperty('transition');
+      }
+    }
+
+    activeDragSheet = null;
+    activeDragDirection = 0;
+    projectBook.classList.remove('is-turning-next', 'is-turning-prev');
+    projectBook.style.setProperty('--page-curl', '0');
+  }
+
+  function getDragSheet(direction) {
+    if (direction < 0 && currentSheet < maxSheetIndex) {
+      return bookSheets[currentSheet] || null;
+    }
+
+    if (direction > 0 && currentSheet > 0) {
+      return bookSheets[currentSheet - 1] || null;
+    }
+
+    return null;
+  }
+
+  function updateDragPreview(deltaX) {
+    const direction = deltaX < 0 ? -1 : deltaX > 0 ? 1 : 0;
+    const targetSheet = getDragSheet(direction);
+
+    if (!targetSheet || direction === 0) {
+      clearDragPreview();
+      return;
+    }
+
+    if (activeDragSheet !== targetSheet || activeDragDirection !== direction) {
+      clearDragPreview();
+      activeDragSheet = targetSheet;
+      activeDragDirection = direction;
+      activeDragSheet.classList.add('is-drag-preview', direction < 0 ? 'is-drag-next' : 'is-drag-prev');
+    }
+
+    const dragDistance = Math.abs(deltaX);
+    const dragRange = Math.max(projectBook.clientWidth * 0.56, 240);
+    const progress = clamp(dragDistance / dragRange, 0, 1);
+    const curl = Math.pow(progress, 0.82);
+    const rotation = direction < 0
+      ? -curl * 168
+      : -180 + curl * 168;
+    const lift = -curl * 6;
+    const pitch = curl * 1.4;
+
+    projectBook.classList.toggle('is-turning-next', direction < 0);
+    projectBook.classList.toggle('is-turning-prev', direction > 0);
+    projectBook.style.setProperty('--page-curl', curl.toFixed(3));
+    activeDragSheet.style.setProperty('--page-curl', curl.toFixed(3));
+    activeDragSheet.style.transform = `rotateY(${rotation}deg) rotateX(${pitch}deg) translateY(${lift}px)`;
+  }
+
+  function settleDragPreview(commitTurn) {
+    const direction = activeDragDirection;
+    const targetSheet = activeDragSheet;
+
+    if (!targetSheet || direction === 0) {
+      clearDragPreview();
+      resetBookTilt();
+      return;
+    }
+
+    targetSheet.style.transition = 'transform 560ms cubic-bezier(.2,.82,.2,1), filter 260ms ease';
+
+    window.requestAnimationFrame(() => {
+      projectBook.style.setProperty('--page-curl', '0');
+      targetSheet.style.setProperty('--page-curl', '0');
+
+      if (direction < 0) {
+        targetSheet.style.transform = commitTurn
+          ? 'rotateY(-180deg) rotateX(0deg) translateY(0px)'
+          : 'rotateY(0deg) rotateX(0deg) translateY(0px)';
+      } else {
+        targetSheet.style.transform = commitTurn
+          ? 'rotateY(0deg) rotateX(0deg) translateY(0px)'
+          : 'rotateY(-180deg) rotateX(0deg) translateY(0px)';
+      }
+    });
+
+    function handlePreviewSettled(event) {
+      if (event.target !== targetSheet || event.propertyName !== 'transform') {
+        return;
+      }
+
+      targetSheet.removeEventListener('transitionend', handlePreviewSettled);
+
+      if (commitTurn) {
+        if (direction < 0 && currentSheet < maxSheetIndex) {
+          currentSheet += 1;
+        } else if (direction > 0 && currentSheet > 0) {
+          currentSheet -= 1;
+        }
+
+        updateBookState();
+      }
+
+      clearDragPreview();
+      resetBookTilt();
+    }
+
+    targetSheet.addEventListener('transitionend', handlePreviewSettled);
+  }
+
+  function resetBookTilt() {
+    projectBook.classList.remove('is-dragging');
+    projectBook.style.setProperty('--book-tilt', '0deg');
+  }
+
+  if (bookNext) {
+    bookNext.addEventListener('click', goToNextSheet);
+  }
+
+  if (bookPrev) {
+    bookPrev.addEventListener('click', goToPreviousSheet);
+  }
+
+  projectBook.addEventListener('pointerdown', (event) => {
+    if (event.target.closest('.book-preview-trigger, .book-project-visual')) {
+      return;
+    }
+
+    isPointerActive = true;
+    pointerStartX = event.clientX;
+    pointerDeltaX = 0;
+    projectBook.classList.add('is-dragging');
+    projectBook.setPointerCapture(event.pointerId);
+  });
+
+  projectBook.addEventListener('pointermove', (event) => {
+    if (!isPointerActive) {
+      return;
+    }
+
+    pointerDeltaX = event.clientX - pointerStartX;
+    projectBook.style.setProperty('--book-tilt', `${clamp(pointerDeltaX / 24, -6, 6)}deg`);
+    updateDragPreview(pointerDeltaX);
+  });
+
+  function handleBookPointerRelease(event) {
+    if (!isPointerActive) {
+      return;
+    }
+
+    isPointerActive = false;
+
+    if (pointerDeltaX <= -52) {
+      settleDragPreview(true);
+    } else if (pointerDeltaX >= 52) {
+      settleDragPreview(true);
+    } else {
+      settleDragPreview(false);
+    }
+  }
+
+  projectBook.addEventListener('pointerup', handleBookPointerRelease);
+  projectBook.addEventListener('pointercancel', handleBookPointerRelease);
+  projectBook.addEventListener('lostpointercapture', resetBookTilt);
+
+  document.addEventListener('keydown', (event) => {
+    if (portfolioLightbox.classList.contains('open')) {
+      return;
+    }
+
+    if (event.key === 'ArrowRight') {
+      goToNextSheet();
+    }
+
+    if (event.key === 'ArrowLeft') {
+      goToPreviousSheet();
+    }
+  });
+
+  updateBookState();
 }
 
 const nameBaseElement = document.getElementById('nameBase');
@@ -1108,7 +1868,7 @@ if (nameBaseElement && nameAccentElement) {
       visibleLength += 1;
       if (visibleLength >= fullName.length) {
         isDeleting = true;
-        setTimeout(animateTypingName, 1300);
+        setTimeout(animateTypingName, 1800);
         renderTypingName();
         return;
       }
@@ -1116,19 +1876,19 @@ if (nameBaseElement && nameAccentElement) {
       visibleLength -= 1;
       if (visibleLength <= 0) {
         isDeleting = false;
-        setTimeout(animateTypingName, 400);
+        setTimeout(animateTypingName, 700);
         renderTypingName();
         return;
       }
     }
 
     renderTypingName();
-    const speed = isDeleting ? 80 : 120;
+    const speed = isDeleting ? 110 : 180;
     setTimeout(animateTypingName, speed);
   }
 
   renderTypingName();
-  setTimeout(animateTypingName, 500);
+  setTimeout(animateTypingName, 800);
 }
 
 const savedLang = localStorage.getItem('siteLanguage') || 'it';
