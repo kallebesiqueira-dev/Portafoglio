@@ -1277,6 +1277,7 @@ section p {
 .project-book.is-flat-mode .book-active-copy {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   gap: 1rem;
   padding: clamp(1.5rem, 2.2vw, 2rem);
@@ -1309,6 +1310,7 @@ section p {
 
 .project-book.is-flat-mode .book-active-copy .book-page-type {
   margin: 0;
+  text-align: left;
   letter-spacing: 0.22em;
   color: rgba(37,99,235,0.6);
 }
@@ -1319,6 +1321,7 @@ section p {
   line-height: 1.05;
   color: #0f172a;
   max-width: 9ch;
+  text-align: left;
 }
 
 .project-book.is-flat-mode .book-active-copy p {
@@ -1327,6 +1330,7 @@ section p {
   line-height: 1.62;
   color: rgba(15,23,42,0.8);
   max-width: 24ch;
+  text-align: left;
 }
 
 .project-book.is-flat-mode .book-active-copy .book-preview-trigger {
@@ -1342,6 +1346,7 @@ section p {
   flex-wrap: wrap;
   gap: 0.8rem;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .book-return-trigger {
@@ -1410,6 +1415,7 @@ section p {
 }
 
 .project-book.is-flat-mode .book-active-spread.is-cover .book-active-copy {
+  align-items: flex-start;
   justify-content: center;
   gap: 1.2rem;
   padding-inline: clamp(2rem, 3vw, 2.8rem);
@@ -1420,11 +1426,13 @@ section p {
   line-height: 0.96;
   max-width: none;
   color: var(--accent);
+  text-align: left;
 }
 
 .project-book.is-flat-mode .book-active-spread.is-cover .book-active-copy p {
   max-width: 30ch;
   font-size: 1rem;
+  text-align: left;
 }
 
 .project-book.is-flat-mode .book-active-spread.is-cover .book-active-visual {
